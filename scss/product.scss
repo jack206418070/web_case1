@@ -1,0 +1,50 @@
+@import './mixin';
+.product{
+  padding: 20px 0;
+  .left-page{
+    flex: 0 0 15%;
+    padding: 0 8px;
+    @include pad {
+      width: 100%;
+    }
+    .menu{
+      @include pad {
+        display: flex;
+        overflow-x: auto;
+      }
+      &-item{
+        text-align: left;
+        a{
+          color: #555;
+          display: block;
+          padding: 4px 12px;
+        }
+        @include pad {
+          white-space: nowrap;
+        }
+      }
+    }
+  }
+  .right-page{
+    flex: 0 0 80%;
+    @include pad {
+      flex: 0 0 100%;
+    }
+    .pList{
+      flex-wrap: wrap;
+      &-item{
+        padding: 0 8px;
+        .bg-img{
+          padding-bottom: 100%;
+          background-size: cover;
+          background-position: center center;
+        }
+        flex:0 0 33.3333%;
+        margin-bottom: 10px;
+        @include pad {
+          flex: 0 0 50%;
+        }
+      }
+    }
+  }
+}
