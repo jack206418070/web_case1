@@ -47,8 +47,25 @@
           justify-content: space-between;
   -webkit-box-shadow: 0 5px 15px #cccccc;
           box-shadow: 0 5px 15px #cccccc;
-  border: 5px solid #ffffff;
+  padding: 5px;
   margin-bottom: 30px;
+  position: relative;
+}
+
+.origin .origin-content ul::after {
+  content: '';
+  position: absolute;
+  height: 100%;
+  width: 1px;
+  background-color: #ccc;
+  top: 0;
+  left: 50%;
+}
+
+@media (max-width: 768px) {
+  .origin .origin-content ul::after {
+    background-color: #fff;
+  }
 }
 
 .origin .origin-content li {
@@ -62,7 +79,6 @@
 
 .origin .origin-content li:nth-child(odd) {
   background-color: #fff;
-  border-right: 1px solid #ccc;
 }
 
 @media (max-width: 768px) {
@@ -70,9 +86,6 @@
     -webkit-box-flex: 0;
         -ms-flex: 0 0 100%;
             flex: 0 0 100%;
-  }
-  .origin .origin-content li:nth-child(odd) {
-    border-right: 0;
   }
 }
 
