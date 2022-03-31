@@ -50,6 +50,9 @@
   padding: 5px;
   margin-bottom: 30px;
   position: relative;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 .origin .origin-content ul::after {
@@ -64,7 +67,7 @@
 
 @media (max-width: 768px) {
   .origin .origin-content ul::after {
-    background-color: #fff;
+    background-color: transparent;
   }
 }
 
@@ -75,6 +78,7 @@
   background-color: #fff;
   padding: 12px 0;
   padding-left: 20px;
+  margin-bottom: 20px;
 }
 
 .origin .origin-content li:nth-child(odd) {
@@ -86,6 +90,7 @@
     -webkit-box-flex: 0;
         -ms-flex: 0 0 100%;
             flex: 0 0 100%;
+    margin-bottom: 0;
   }
 }
 

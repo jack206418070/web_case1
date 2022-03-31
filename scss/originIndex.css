@@ -1,0 +1,569 @@
+.originIndex .btn-success {
+  display: block;
+  padding: 12px 18px;
+  background-color: #4ca20c;
+  width: 13%;
+  text-align: center;
+  color: #fff;
+  -webkit-transition: .5s;
+  transition: .5s;
+  white-space: nowrap;
+  margin-bottom: 30px;
+}
+
+@media (max-width: 992px) {
+  .originIndex .btn-success {
+    width: 20%;
+  }
+}
+
+@media (max-width: 768px) {
+  .originIndex .btn-success {
+    width: 40%;
+  }
+}
+
+.originIndex .btn-success:hover {
+  background-color: #fff;
+  color: #4ca20c;
+}
+
+.originIndex .banner {
+  position: relative;
+  padding: 20px 80px;
+  background-image: url(https://www.champion-bio.com/upload/banner_list/twL_banner_21E18_8v254ya3mx.png);
+  height: 450px;
+  background-size: cover;
+  background-position: center center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  margin-bottom: 80px;
+}
+
+@media (max-width: 768px) {
+  .originIndex .banner {
+    padding-left: 15px;
+  }
+}
+
+.originIndex .banner-content {
+  width: 60%;
+}
+
+@media (max-width: 992px) {
+  .originIndex .banner-content {
+    width: 70%;
+  }
+}
+
+@media (max-width: 768px) {
+  .originIndex .banner-content {
+    width: 100%;
+  }
+}
+
+.originIndex .banner h4 {
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  position: relative;
+  width: 70%;
+  white-space: nowrap;
+  margin-bottom: 20px;
+}
+
+.originIndex .banner h4 .middle {
+  padding: 0 10px;
+}
+
+.originIndex .banner p.big {
+  font-size: 58px;
+  font-weight: bold;
+  color: #fff;
+  line-height: 1.2;
+  margin-bottom: 20px;
+}
+
+@media (max-width: 992px) {
+  .originIndex .banner p.big {
+    font-size: 42px;
+  }
+}
+
+@media (max-width: 768px) {
+  .originIndex .banner p.big {
+    font-size: 24px;
+  }
+}
+
+.originIndex .banner p.small {
+  font-weight: bold;
+  color: #fff;
+  margin-bottom: 30px;
+}
+
+.originIndex .about-origin {
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.originIndex .text {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  color: white;
+  font-weight: bold;
+  padding-right: 36px;
+  padding-bottom: 24px;
+}
+
+.originIndex .text h4 {
+  font-size: 32px;
+  margin-bottom: 10px;
+}
+
+.originIndex .text a {
+  font-size: 24px;
+}
+
+.originIndex .outer {
+  position: absolute;
+  width: 70%;
+  border: 2px solid #fff;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  height: 70%;
+  opacity: 0;
+  -webkit-transition: opacity 0.5s;
+  transition: opacity 0.5s;
+  -webkit-transition: width 0.7s, height 0.7s;
+  transition: width 0.7s, height 0.7s;
+}
+
+.originIndex .about-left {
+  background-image: url(https://www.champion-bio.com/upload/marqueepic_list/twL_marqueepic_21A15_j54wkw9z6n.jpg);
+  background-size: cover;
+  background-position: center center;
+  height: 330px;
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 50%;
+          flex: 0 0 50%;
+  position: relative;
+  cursor: pointer;
+}
+
+@media (max-width: 768px) {
+  .originIndex .about-left {
+    -webkit-box-flex: 0;
+        -ms-flex: 0 0 100%;
+            flex: 0 0 100%;
+    margin-bottom: 20px;
+  }
+}
+
+.originIndex .about-left:hover .outer {
+  opacity: 1;
+  width: 95%;
+  height: 95%;
+}
+
+.originIndex .about-right {
+  background-image: url(https://www.champion-bio.com/upload/marqueepic_list/twL_marqueepic_21A15_x83ww45qmg.jpg);
+  background-size: cover;
+  background-position: center center;
+  height: 330px;
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 50%;
+          flex: 0 0 50%;
+  position: relative;
+  cursor: pointer;
+}
+
+.originIndex .about-right .text {
+  left: 0;
+  padding-left: 36px;
+}
+
+.originIndex .about-right:hover .outer {
+  opacity: 1;
+  width: 95%;
+  height: 95%;
+}
+
+@media (max-width: 768px) {
+  .originIndex .about-right {
+    -webkit-box-flex: 0;
+        -ms-flex: 0 0 100%;
+            flex: 0 0 100%;
+  }
+  .originIndex .about-right .text {
+    padding-left: 0;
+    right: 0;
+    left: auto;
+    padding-right: 36px;
+  }
+}
+
+.originIndex .about-company {
+  background-image: url(https://www.champion-bio.com/tw/images/about-bg.jpg);
+  height: 830px;
+  background-size: cover;
+  background-position: center center;
+  padding: 120px 0 140px 0;
+}
+
+.originIndex .about-company-content {
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+@media (max-width: 992px) {
+  .originIndex .about-company {
+    background-position: right center;
+  }
+}
+
+.originIndex .about-company-item {
+  width: 50%;
+  padding-right: 100px;
+}
+
+@media (max-width: 992px) {
+  .originIndex .about-company-item {
+    width: 100%;
+    padding: 0 40px;
+  }
+}
+
+.originIndex .about-company-item h3 {
+  font-size: 55px;
+  font-weight: bold;
+  text-align: left;
+  margin-bottom: 10px;
+}
+
+.originIndex .about-company-item p {
+  font-weight: 900;
+  font-size: 18px;
+  margin-bottom: 20px;
+  color: #111;
+}
+
+.originIndex .about-company-item .text-green {
+  font-size: 18px;
+  color: #4ca20c;
+  margin-bottom: 20px;
+  font-weight: normal;
+}
+
+.originIndex .about-company-item .text-normal {
+  font-size: 16px;
+  font-weight: normal;
+  color: #777;
+  margin-bottom: 20px;
+}
+
+.originIndex .about-company-item .btn-success {
+  width: 30%;
+}
+
+@media (max-width: 768px) {
+  .originIndex .about-company-item .btn-success {
+    width: 40%;
+  }
+}
+
+.originIndex .about-img {
+  width: 50%;
+  position: relative;
+}
+
+.originIndex .about-img img {
+  position: absolute;
+}
+
+.originIndex .about-img .img-two {
+  right: 100px;
+  top: -40px;
+}
+
+.originIndex .about-img .img-one {
+  right: 300px;
+  top: 80px;
+  z-index: 1;
+}
+
+@media (max-width: 768px) {
+  .originIndex .about-img .img-two {
+    right: 20px;
+    top: 0px;
+  }
+  .originIndex .about-img .img-one {
+    right: 80px;
+    top: 150px;
+    z-index: 1;
+  }
+}
+
+.originIndex .about-formula {
+  padding: 100px 0 0 0;
+  position: relative;
+}
+
+.originIndex .about-formula::before {
+  position: absolute;
+  content: '';
+  height: 100%;
+  background-color: #faf8f1;
+  width: 50%;
+  top: 0;
+  z-index: -1;
+}
+
+@media (max-width: 992px) {
+  .originIndex .about-formula::before {
+    width: 100%;
+  }
+}
+
+.originIndex .about-formula ul {
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 35%;
+          flex: 0 0 35%;
+}
+
+@media (max-width: 992px) {
+  .originIndex .about-formula ul {
+    display: none;
+  }
+}
+
+.originIndex .about-formula li {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  padding-left: 100px;
+  margin-bottom: 60px;
+}
+
+.originIndex .about-formula li h5 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-bottom: 10px;
+  width: 100%;
+}
+
+.originIndex .about-formula li h5 .middle {
+  padding: 0 20px;
+}
+
+.originIndex .about-formula li h5 .text-title {
+  -webkit-transition: .5s;
+  transition: .5s;
+  font-size: 22px;
+}
+
+.originIndex .about-formula li h5 .text-title:hover {
+  color: #4ca20c;
+}
+
+.originIndex .about-formula li p {
+  overflow-wrap: break-word;
+  color: #808080;
+  font-size: 15px;
+}
+
+.originIndex .about-formula .about-formula-title {
+  position: absolute;
+  top: 100px;
+  right: 30px;
+  width: 30%;
+}
+
+@media (max-width: 992px) {
+  .originIndex .about-formula .about-formula-title {
+    width: 100%;
+    top: 100px;
+    right: 0;
+    padding: 20px;
+  }
+}
+
+.originIndex .about-formula .about-formula-title h2 {
+  font-size: 36px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.originIndex .about-formula .about-formula-title p {
+  margin-bottom: 20px;
+}
+
+.originIndex .right-box {
+  padding-left: 140px;
+  position: relative;
+  width: calc(100% - 390px);
+  z-index: 1;
+}
+
+.originIndex .right-box .right-box-img {
+  top: 100px;
+  left: 0px;
+  width: 100%;
+  display: block;
+  position: relative;
+  -webkit-backface-visibility: hidden;
+          backface-visibility: hidden;
+}
+
+@media (max-width: 992px) {
+  .originIndex .right-box .right-box-img {
+    display: none;
+  }
+}
+
+.originIndex .right-box .circle {
+  position: absolute;
+  width: 490px;
+  height: 490px;
+  top: 40px;
+  left: 65px;
+  display: block;
+  max-width: 100%;
+  -webkit-backface-visibility: hidden;
+          backface-visibility: hidden;
+  -webkit-animation: rotate 70s linear infinite;
+          animation: rotate 70s linear infinite;
+}
+
+@media (max-width: 992px) {
+  .originIndex .right-box .circle {
+    display: none;
+  }
+}
+
+@-webkit-keyframes rotate {
+  0% {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+            transform: rotate(360deg);
+  }
+}
+
+@keyframes rotate {
+  0% {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+            transform: rotate(360deg);
+  }
+}
+
+.originIndex .right-box .advantageList {
+  display: block;
+  position: absolute;
+  top: 42px;
+  left: 65px;
+  z-index: 3;
+  width: 490px;
+  height: 490px;
+  padding: 0;
+  border-radius: 50%;
+}
+
+.originIndex .right-box .advantageList-item {
+  width: 85px;
+  height: 85px;
+  display: block;
+  margin: -42.5px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+}
+
+.originIndex .right-box .advantageList-item:first-of-type {
+  -webkit-transform: rotate(270deg) translate(245px) rotate(-270deg);
+          transform: rotate(270deg) translate(245px) rotate(-270deg);
+}
+
+.originIndex .right-box .advantageList-item:nth-of-type(2) {
+  -webkit-transform: rotate(225deg) translate(245px) rotate(-225deg);
+          transform: rotate(225deg) translate(245px) rotate(-225deg);
+}
+
+.originIndex .right-box .advantageList-item:nth-of-type(3) {
+  -webkit-transform: rotate(180deg) translate(245px) rotate(-180deg);
+          transform: rotate(180deg) translate(245px) rotate(-180deg);
+}
+
+.originIndex .right-box .advantageList-item:nth-of-type(4) {
+  -webkit-transform: rotate(135deg) translate(245px) rotate(-135deg);
+          transform: rotate(135deg) translate(245px) rotate(-135deg);
+}
+
+.originIndex .right-box .advantageList-item:nth-of-type(5) {
+  -webkit-transform: rotate(90deg) translate(245px) rotate(-90deg);
+          transform: rotate(90deg) translate(245px) rotate(-90deg);
+}
+
+@media (max-width: 992px) {
+  .originIndex .right-box .advantageList-item {
+    display: none;
+  }
+}
+
+.originIndex .right-box .advantageList-item .item-circle {
+  height: 85px;
+  width: 85px;
+  border-radius: 50%;
+  border: 1px solid #4ca20c;
+}
+
+.originIndex .right-box .advantageList-item .item-circle p {
+  line-height: 85px;
+  font-size: 24px;
+  color: #4ca20c;
+  text-align: center;
+}
+
+.originIndex .text-c-green {
+  color: #4ca20c;
+  font-size: 14px;
+}
+
+.originIndex .text-normal {
+  font-size: 16px;
+  font-weight: normal;
+  color: #777;
+  margin-bottom: 20px;
+}
+/*# sourceMappingURL=originIndex.css.map */
